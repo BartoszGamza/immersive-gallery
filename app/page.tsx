@@ -6,7 +6,7 @@ import PostSlide from '@/components/PostSlide'
 
 export default function Home() {
   return (
-    <Canvas dpr={[1, 1.5]} camera={{ fov: 70, position: [0, 2, 15] }}>
+    <Canvas dpr={[1, 1.5]} camera={{ fov: 70, position: [0, 1, 2] }}>
       <OrbitControls />
       <color attach='background' args={['#191920']} />
       <fog attach='fog' args={['#191920', 0, 15]} />
